@@ -26,17 +26,26 @@
 
 ## چگونگی استفاده
 
-1. **کلون کردن:**
-   ```bash
-   git clone https://github.com/mahanrezaie/spam-classifier.git
-   cd spam-classifier
-2. **نصب پکیج ها:**
+# راهنمای استفاده از اپلیکیشن
 
-برای نصب پکیج‌های مورد نیاز، ابتدا مطمئن شوید که Python نصب شده است. سپس از دستورات زیر استفاده کنید:
+## گام 1: کلون کردن
+
+برای شروع، پروژه را از ریپازیتوری گیت‌هاب کلون کنید:
+
+```bash
+git clone https://github.com/mahanrezaie/Spam_classification.git
+```
+## گام 2: نصب پکیج‌ها
+
+برای نصب پکیج‌های مورد نیاز، اطمینان حاصل کنید که Python نصب شده باشد. سپس از دستورات زیر استفاده کنید:
 
 ```bash
 pip install -r requirements.txt
+```
+## گام 3: اجرای برنامه
 
-3. **اجرا:**
+
 ```bash
 streamlit run webapp.py
+```
+
